@@ -63,8 +63,7 @@ function initChatbot() {
                 response = sampleResponses["exercise"];
             } else if (lowerText.includes('medication') || lowerText.includes('pill') || lowerText.includes('drug')) {
                 response = sampleResponses["medication"];
-            }
-             else if (lowerText.includes('who are you') || lowerText.includes('Anmol') || lowerText.includes('Prince')) {
+            }else if (lowerText.includes('who are you') || lowerText.includes('Anmol') || lowerText.includes('Prince')) {
                 response = sampleResponses["who are you"];
             }
             
