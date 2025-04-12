@@ -64,6 +64,9 @@ function initChatbot() {
             } else if (lowerText.includes('medication') || lowerText.includes('pill') || lowerText.includes('drug')) {
                 response = sampleResponses["medication"];
             }
+             else if (lowerText.includes('who are you') || lowerText.includes('Anmol') || lowerText.includes('Prince')) {
+                response = sampleResponses["who are you"];
+            }
             
             addMessage(response, false);
         }, 1000);
@@ -81,5 +84,3 @@ function initChatbot() {
     }, 1500);
 }
 
-// Note: In a production app, replace the sampleResponses with actual API calls
-// to a service like OpenAI's API or Dialogflow
