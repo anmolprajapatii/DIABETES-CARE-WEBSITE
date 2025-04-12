@@ -11,7 +11,8 @@ function initChatbot() {
         "diet": "A balanced diabetic diet includes non-starchy vegetables, lean proteins, whole grains, and healthy fats. Limit processed foods and sugars. Consider the plate method: 1/2 plate veggies, 1/4 protein, 1/4 whole grains.",
         "exercise": "Regular exercise helps manage diabetes. Try 30 minutes of moderate activity daily (walking, swimming, cycling). Yoga poses like seated forward bend and cobra can help with blood sugar control.",
         "medication": "Common diabetes medications include Metformin, Insulin, Sulfonylureas, and SGLT2 inhibitors. Always follow your doctor's prescription and timing instructions.",
-        "default": "I'm here to help with diabetes management. You can ask me about high/low sugar levels, diet recommendations, exercise tips, or medications. How can I assist you today?"
+        "default": "I'm here to help with diabetes management. You can ask me about high/low sugar levels, diet recommendations, exercise tips, or medications. How can I assist you today?",
+        "who are you":"Am a chatbot devlope by Anmol, Prince, Ankit."
     };
     
     // Add message to chat
