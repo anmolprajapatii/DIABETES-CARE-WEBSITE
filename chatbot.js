@@ -3,15 +3,15 @@ function initChatbot() {
     const chatMessages = document.getElementById('chatbot-messages');
     const userInput = document.getElementById('user-input');
     const sendButton = document.getElementById('send-button');
-    
-    // Sample responses (in a real app, replace with API calls)
+
     const sampleResponses = {
+        "Hello":"Hello !, Sir how can i help you",
         "high sugar": "For high sugar levels, consider taking your prescribed medication (like Metformin). Try drinking plenty of water and eating high-fiber foods like vegetables. A 15-minute walk can also help lower blood sugar.",
         "low sugar": "For low sugar levels, consume 15-20 grams of fast-acting carbs (like juice or glucose tablets). Follow up with a protein-rich snack. Avoid over-treating as it can cause high sugar later.",
         "diet": "A balanced diabetic diet includes non-starchy vegetables, lean proteins, whole grains, and healthy fats. Limit processed foods and sugars. Consider the plate method: 1/2 plate veggies, 1/4 protein, 1/4 whole grains.",
         "exercise": "Regular exercise helps manage diabetes. Try 30 minutes of moderate activity daily (walking, swimming, cycling). Yoga poses like seated forward bend and cobra can help with blood sugar control.",
         "medication": "Common diabetes medications include Metformin, Insulin, Sulfonylureas, and SGLT2 inhibitors. Always follow your doctor's prescription and timing instructions.",
-        "who are you": "Am a chatbot devlope by Anmol, Prince, Ankit.",
+        "who are you": "Am a chatbot devlop by Anmol, Prince, Ankit.",
         "default": "I'm here to help with diabetes management. You can ask me about high/low sugar levels, diet recommendations, exercise tips, or medications. How can I assist you today?"
     };
     
@@ -82,4 +82,3 @@ function initChatbot() {
         addMessage("You can ask me about managing high or low blood sugar levels, diet recommendations, exercise tips, or medications.", false);
     }, 1500);
 }
-
